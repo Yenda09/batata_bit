@@ -126,6 +126,12 @@ main .main--exchange-title p{
     line-height: 1.6rem;
     color: #757575;
 }
+main .main--tables-container{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 main .tables-container--currency-table{
     width: 70%;
     min-width: 235px;
